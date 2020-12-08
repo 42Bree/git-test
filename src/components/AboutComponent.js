@@ -1,7 +1,7 @@
 import React from 'react';
 import { Breadcrumb, BreadcrumbItem, Card, CardBody, CardHeader, Media } from 'reactstrap';
 import { Link } from 'react-router-dom';
-
+import { baseUrl } from '../shared/baseUrl';
 function About(props) {
 
     // const leaders = props.leaders.map((leader) => {
@@ -10,12 +10,12 @@ function About(props) {
     //     );
     // });
 
-    function RenderLeader({leaders}) {
+    function RenderLeader({leaders}) { // 보통 function을 만드는 경우는 rendering하는 경우임.
         return(
             <div>
                 <Media className="mt-5">
                     <Media left className="mr-5">
-                        <Media object src={leaders.image} alt={leaders.name} />
+                        <Media object src={ baseUrl + leaders.image} alt={leaders.name} />
                     </Media>
                     <Media body>
                         <Media heading>
@@ -85,7 +85,7 @@ function About(props) {
                 </div>
                 <div className="col-12">
                     <Media list>
-                        {props.leaders.map((leader) => 
+                        {props.leaders.leaders.map((leader) => 
                             (<RenderLeader leaders = {leader} />))}
                     </Media>
                 </div>
