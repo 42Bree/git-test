@@ -1,0 +1,186 @@
+{
+  "services": [
+    {
+      "id": 0,
+      "name": "Man Haircut",
+      "image": "images/men_hair.jpg",
+      "category": "mains",
+      "label": "Hot Deal",
+      "price": "4.99",
+      "featured": true,
+      "description": "Man Haircut costs only $4.99"
+    },
+    {
+      "id": 1,
+      "name": "Woman Haircut",
+      "image": "images/women_hair.jpg",
+      "category": "main",
+      "label": "",
+      "price": "9.99",
+      "featured": false,
+      "description": "Woman Hair Cut costs only $9.99"
+    },
+    {
+      "id": 2,
+      "name": "Man Perm",
+      "image": "images/curly.jpg",
+      "category": "main",
+      "label": "New",
+      "price": "30.01",
+      "featured": false,
+      "description": "Perm costs only $30.01"
+    },
+    {
+      "id": 3,
+      "name": "Woman Perm",
+      "image": "images/curly.jpg",
+      "category": "main",
+      "label": "new",
+      "price": "30.01",
+      "featured": false,
+      "description": "Perm costs only $30.01"
+    }
+  ],
+  "comments": [
+    {
+      "id": 0,
+      "dishId": 0,
+      "rating": 5,
+      "comment": "Great Place",
+      "author": "Seongjin",
+      "date": "2012-10-16T17:57:28.556094Z"
+    },
+    {
+      "id": 2,
+      "dishId": 1,
+      "rating": 5,
+      "comment": "Great Place",
+      "author": "Seongjin",
+      "date": "2012-10-16T17:57:28.556094Z"
+    },
+    {
+      "id": 3,
+      "dishId": 2,
+      "rating": 5,
+      "comment": "Great Place",
+      "author": "Seongjin",
+      "date": "2012-10-16T17:57:28.556094Z"
+    },
+    {
+      "id": 3,
+      "dishId": 3,
+      "rating": 5,
+      "comment": "Great Place",
+      "author": "Seongjin",
+      "date": "2012-10-16T17:57:28.556094Z"
+    }
+  ],
+  "promotions": [
+    {
+      "id": 0,
+      "name": "Perm",
+      "image": "images/curly.jpg",
+      "label": "New",
+      "price": "19.99",
+      "featured": true,
+      "description": "Perm costs only $19.99!"
+    }
+  ],
+  "leaders": [
+    {
+      "id": 0,
+      "name": "Bob",
+      "image": "images/hair_dresser.jpg",
+      "designation": "CEO",
+      "abbr": "CEO",
+      "featured": false,
+      "description": "Bob is a great CEO!"
+    },
+    {
+      "id": 1,
+      "name": "Laura",
+      "image": "images/hair_dresser.jpg",
+      "designation": "COO",
+      "abbr": "COO",
+      "featured": false,
+      "description": "Laura is a greate COO!"
+    },
+    {
+      "id": 2,
+      "name": "Peter",
+      "image": "images/hair_dresser.jpg",
+      "designation": "CTO",
+      "abbr": "CTO",
+      "featured": false,
+      "description": "Peter is a great CTO"
+    },
+    {
+      "id": 3,
+      "name": "Jena",
+      "image": "images/hair_dresser.jpg",
+      "designation": "Chief Hair Designer",
+      "abbr": "EC",
+      "featured": true,
+      "description": "Jena is a hairstylist, entrepreneur, and columnist. Jena is considered to be one of the most influential hair stylists in the world. Jena is the co-owner of the hair care line OUAI with Lamees Hamdan who is the other co-owner and the documented founder of OUAI."
+    }
+  ],
+  "feedback": [
+    {
+      "firstname": "fdas",
+      "lastname": "afds",
+      "telnum": "134113",
+      "email": "dafdads@daffas.dfdafd",
+      "agree": true,
+      "contactType": "Email",
+      "message": "afadsfds",
+      "date": "2017-12-04T09:41:49.890Z",
+      "id": 1
+    }
+  ],
+  "haircuts": [
+    {
+      "id": 0,
+      "name": "Hair Cut",
+      "image": "images/men_hair.jpg",
+      "category": "haircut",
+      "label": "Hot deal",
+      "price": "9",
+      "featured": true,
+      "description": "men haircut starting price is only $9"
+    },
+    {
+      "id": 0,
+      "name": "Hair Cut",
+      "image": "images/woman_hair.jpg",
+      "category": "haircut",
+      "label": "Hot deal",
+      "price": "13",
+      "featured": true,
+      "description": "women haircut starting price is only $13"
+    },
+    {}
+  ],
+  "perm": [
+    {
+      "id": 1,
+      "name": "Perm",
+      "image": "images/curly",
+      "category": "Perm",
+      "label": "Hot deal",
+      "price": "30",
+      "featured": false,
+      "description": "Perm starting price is only $30"
+    },
+    {
+      "id": 1,
+      "name": "Perm",
+      "image": "images/curly",
+      "category": "Perm",
+      "label": "Hot deal",
+      "price": "30",
+      "featured": false,
+      "description": "Perm starting price is only $30"
+    },
+    {}
+  ]
+}
